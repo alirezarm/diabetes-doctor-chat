@@ -54,10 +54,8 @@ if __name__ == "__main__":
     dataset = data["train"].shuffle().select(range(args.sample_size)).map(generate_prompt)
     dataset = dataset.remove_columns(["instruction", "input", "output"])
 
-    # 70% train, 30% test + validation
+    # create train, test and validation splits
     train_test_valid = dataset.train_test_split(test_size=args.test_size)
-    
-    # Split the 10% test + valid in half test, half valid
     test_valid = train_test_valid["test"].train_test_split(test_size=0.5)
 
     datasets = DatasetDict({
