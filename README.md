@@ -10,13 +10,15 @@ git clone https://github.com/ml-explore/mlx-examples
 cd mlx-examples 
 ```
 
-## Copy Codes 
-
-Move content of the `src` folder from this repo into `ml-explore/mlx-examples/lora` and install dependencies:
+## Install Dependencies 
 
 ```bash
 pip3 install -r requirements.txt
 ``` 
+
+## Copy Codes 
+
+Move content of the `src` folder from this repo into `ml-explore/mlx-examples/lora`.
 
 ## Model Quantization    
 
