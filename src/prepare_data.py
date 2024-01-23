@@ -23,7 +23,7 @@ def build_parser():
 
 
 def generate_prompt(data_point):
-    text = f"""### The following is a doctor's opinion on a person's query:
+    text = f"""### The following is a doctor's opinion on a patient's query:
         \n### Patient query: {data_point['input']}
         \n### Doctor opinion: {data_point['output']}"""
     return {"text": text}

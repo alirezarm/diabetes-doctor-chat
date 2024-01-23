@@ -12,7 +12,7 @@ cd mlx-examples
 
 ## Copy Codes 
 
-Move context of the folder x from this repo into `ml-explore/mlx-examples/lora` and install dependencies:
+Move content of the `src` folder from this repo into `ml-explore/mlx-examples/lora` and install dependencies:
 
 ```bash
 pip3 install -r requirements.txt
