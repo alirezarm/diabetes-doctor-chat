@@ -1,0 +1,6 @@
+mlx>=0.0.7
+transformers
+numpy
+pandas
+datasets
+gradio
