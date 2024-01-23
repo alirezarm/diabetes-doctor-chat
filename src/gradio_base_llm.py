@@ -1,5 +1,4 @@
 import argparse
-from pathlib import Path
 import gradio as gr
 import mlx.core as mx
 import utils as lora_utils
