@@ -5,7 +5,7 @@ import utils as lora_utils
 from ft_utils import generate
 
 def build_parser():
-    parser = argparse.ArgumentParser(description="LoRA or QLoRA finetuning.")
+    parser = argparse.ArgumentParser(description="Gradio Chatbot for Base Model.")
     # Generation args
     parser.add_argument(
         "--model",
