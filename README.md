@@ -52,4 +52,10 @@ We included two simple Gradio apps to chat with the base LLM model (i.e., `gradi
 Run the app and chat: 
 ```bash 
 python3 gradio_ft_llm.py 
-```   
+``` 
+
+## ROUGE Score Evaluation
+
+```bash 
+python3 rouge_evaluation.py 
+``` 
